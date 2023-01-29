@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Hero from "./components/Hero";
+import About from "./components/About";
+import ProjectList from "./components/ProjectList";
+import { motion, useScroll, useSpring } from "framer-motion";
+import "./App.css";
 
 function App() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen min-w-screen bg-gray-900">
+      <motion.div className="progress-bar" style={{ scaleX }}></motion.div>
+      <Hero />
+      <About />
+      <ProjectList />
     </div>
   );
 }
