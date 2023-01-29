@@ -3,10 +3,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div
-      id="projects"
-      className="flex flex-col h-screen justify-center items-center"
-    >
+    <div id="projects" className="flex flex-col justify-center items-center">
       <Project />
       <Project />
       <Project />

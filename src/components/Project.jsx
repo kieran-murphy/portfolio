@@ -2,37 +2,27 @@ import React from "react";
 
 const Project = () => {
   return (
-    <article className="lg:w-1/2 mt-10 mx-10 rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:shadow-sm dark:shadow-gray-700/25">
-      <div class="rounded-[10px] bg-white p-4 !pt-20 dark:bg-gray-900 sm:p-6">
-        {/* <img
-          src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2021/03/10114044/image2-8.png"
-          alt=""
+    <div className="card lg:card-side bg-gray-800 shadow-xl my-4 text-slate-200">
+      <figure>
+        <img
+          src="https://static.wixstatic.com/media/2f9f4e_9c1fffc643084747a1ac779421d10616~mv2.jpg/v1/fill/w_640,h_430,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2f9f4e_9c1fffc643084747a1ac779421d10616~mv2.jpg"
+          alt="Album"
           className="w-full"
-        /> */}
-        <time
-          datetime="2022-10-10"
-          class="block text-xs text-gray-500 dark:text-gray-400"
-        >
-          10th Oct 2022
-        </time>
-
-        <a href="#">
-          <h3 class="mt-0.5 text-lg font-medium text-gray-900 dark:text-white">
-            How to center an element using JavaScript and jQuery
-          </h3>
-        </a>
-
-        <div class="mt-4 flex flex-wrap gap-1">
-          <span class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600 dark:bg-purple-600 dark:text-purple-100">
-            Snippet
-          </span>
-
-          <span class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600 dark:bg-purple-600 dark:text-purple-100">
-            JavaScript
-          </span>
+        />
+      </figure>
+      <div className="card-body ">
+        <h2 className="card-title">New album is released!</h2>
+        <p>Click the button to listen on Spotiwhy app.</p>
+        <div className="badge">neutral</div>
+        <div className="badge badge-primary">primary</div>
+        <div className="badge badge-secondary">secondary</div>
+        <div className="badge badge-accent">accent</div>
+        <div className="badge badge-ghost">ghost</div>
+        <div className="card-actions justify-end">
+          <button className="btn btn-primary">Listen</button>
         </div>
       </div>
-    </article>
+    </div>
   );
 };
 

@@ -17,17 +17,17 @@ const Hero = () => {
           }}
         />
       </div>
-      <div className="flex flex-col absolute bottom-10 left-10 text-xl">
-        <motion.div className="my-1" whileHover={{ translateX: 10 }}>
+      <div className="flex flex-col absolute bottom-10 left-10 text-2xl">
+        <motion.div className="my-1" whileHover={{ translateX: 16 }}>
           <a href="#about">About</a>
         </motion.div>
         <motion.div
           className="my-1 scroll-smooth"
-          whileHover={{ translateX: 10 }}
+          whileHover={{ translateX: 16 }}
         >
           <a href="#projects">Projects</a>
         </motion.div>
-        <motion.div className="my-1" whileHover={{ translateX: 10 }}>
+        <motion.div className="my-1" whileHover={{ translateX: 16 }}>
           <a href="#about">Contact</a>
         </motion.div>
       </div>

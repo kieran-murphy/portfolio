@@ -13,7 +13,8 @@ function App() {
   });
 
   return (
-    <div className="min-h-screen min-w-screen bg-gray-900">
+    <div className="min-h-screen min-w-screen ">
+      {/* <div className="min-h-screen min-w-screen bg-gray-900"> */}
       <motion.div className="progress-bar" style={{ scaleX }}></motion.div>
       <Hero />
       <About />

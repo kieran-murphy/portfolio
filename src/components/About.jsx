@@ -2,114 +2,27 @@ import React from "react";
 
 const LoremIpsum = () => {
   return (
-    <div id="about" className="text-slate-200 mx-10">
-      <article>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
-          rhoncus quam.
-        </p>
-        <br />
-        <p>
-          Fringilla quam urna. Cras turpis elit, euismod eget ligula quis,
-          imperdiet sagittis justo. In viverra fermentum ex ac vestibulum.
-          Aliquam eleifend nunc a luctus porta. Mauris laoreet augue ut felis
-          blandit, at iaculis odio ultrices. Nulla facilisi. Vestibulum cursus
-          ipsum tellus, eu tincidunt neque tincidunt a.
-        </p>
-        <h2>Sub-header</h2>
-        <p>
-          In eget sodales arcu, consectetur efficitur metus. Duis efficitur
-          tincidunt odio, sit amet laoreet massa fringilla eu.
-        </p>
-        <p>
-          Pellentesque id lacus pulvinar elit pulvinar pretium ac non urna.
-          Mauris id mauris vel arcu commodo venenatis. Aliquam eu risus arcu.
-          Proin sit amet lacus mollis, semper massa ut, rutrum mi.
-        </p>
-        <p>Sed sem nisi, luctus consequat ligula in, congue sodales nisl.</p>
-        <p>
-          Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
-          leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
-        </p>
-        <h2>Sub-header</h2>
-        <p>
-          Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
-          aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat
-          sem, sit amet tempor nulla. Quisque fermentum felis faucibus, vehicula
-          metus ac, interdum nibh. Curabitur vitae convallis ligula. Integer ac
-          enim vel felis pharetra laoreet. Interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Pellentesque hendrerit ac augue quis
-          pretium.
-        </p>
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
-        <p>
-          Pellentesque id lacus pulvinar elit pulvinar pretium ac non urna.
-          Mauris id mauris vel arcu commodo venenatis. Aliquam eu risus arcu.
-          Proin sit amet lacus mollis, semper massa ut, rutrum mi.
-        </p>
-        <p>Sed sem nisi, luctus consequat ligula in, congue sodales nisl.</p>
-        <p>
-          Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra
-          leo vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
-        </p>
-        <h2>Sub-header</h2>
-        <p>
-          Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
-          aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat
-          sem, sit amet tempor nulla. Quisque fermentum felis faucibus, vehicula
-          metus ac, interdum nibh. Curabitur vitae convallis ligula. Integer ac
-          enim vel felis pharetra laoreet. Interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Pellentesque hendrerit ac augue quis
-          pretium.
-        </p>
-        <br />
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <br />
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <br />
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <br />
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <br />
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <br />
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <p>
-          Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
-          elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
-          ultricies, mollis mi in, euismod dolor.
-        </p>
-        <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
-      </article>
+    <div
+      id="about"
+      className="flex flex-col h-screen justify-center items-center text-center text-slate-200 text-2xl "
+    >
+      <div className="flex lg:w-5/6 mx-2">
+        <h1>
+          I am an aspiring web developer from the Gold Coast, Australia ☀️ I'm
+          super passionate about learning new technologies and bringing awesome
+          web applications to life. My main strengths lie in Python, Javascript,
+          ReactJS, Tailwind, REST APIs, Express.js and MongoDB. I have 2 degrees
+          from Griffith University in Business and Information Technology
+        </h1>
+        <div className="hidden lg:block avatar">
+          <div className="rounded-full">
+            <img
+              src="https://avatars.githubusercontent.com/u/68723269?v=4"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
