@@ -7,7 +7,7 @@ const Projects = () => {
       <Project
         props={{
           title: "Crypto Cards React",
-          desc: "something",
+          desc: "My first React application based on the coinGecko API and using Framer Motion for animations",
           image: "",
           technologies: [
             "Javascript",
@@ -15,24 +15,24 @@ const Projects = () => {
             "React Router",
             "Framer Motion",
           ],
-          codeLink: "",
+          codeLink: "https://github.com/kieran-murphy/crypto-cards-react",
           siteLink: "https://kieran-murphy.github.io/crypto-cards-react/",
         }}
       />
       <Project
         props={{
           title: "Colorle",
-          desc: "something",
+          desc: "A simple game where the user guesses the color swatch based on RGB values",
           image: "",
           technologies: ["Javascript", "React", "TailwindCSS"],
-          codeLink: "",
+          codeLink: "https://github.com/kieran-murphy/colorle",
           siteLink: "https://kieran-murphy.github.io/colorle/",
         }}
       />
       <Project
         props={{
           title: "Cliffhangr",
-          desc: "something",
+          desc: "A full stack MERN stack project where users can write reviews for their favourite TV shows [WIP]",
           image: "",
           technologies: [
             "Javascript",
@@ -43,27 +43,27 @@ const Projects = () => {
             "DaisyUI",
             "MongoDB",
           ],
-          codeLink: "",
+          codeLink: "https://github.com/kieran-murphy/cliffhangr",
           siteLink: "",
         }}
       />
       <Project
         props={{
           title: "Piplupdex",
-          desc: "something",
+          desc: "A simple Pokedex application made in TailwindCSS and using Typescript React",
           image: "",
           technologies: ["Typescript", "React", "React Router", "TailwindCSS"],
-          codeLink: "",
-          siteLink: "",
+          codeLink: "https://github.com/kieran-murphy/piplupdex",
+          siteLink: "https://kieran-murphy.github.io/piplupdex/",
         }}
       />
       <Project
         props={{
-          title: "2803ICT Assignment",
-          desc: "something",
+          title: "2703ICT Assignment",
+          desc: "A PHP Laravel CRUD application for a class in my final year of uni",
           image: "",
           technologies: ["PHP", "Laravel"],
-          codeLink: "",
+          codeLink: "https://github.com/kieran-murphy/2703ICTAssignment2",
           siteLink: "",
         }}
       />

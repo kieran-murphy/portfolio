@@ -10,15 +10,15 @@ const Project = ({ props }) => {
     >
       <figure>
         <img
-          src="https://static.wixstatic.com/media/2f9f4e_9c1fffc643084747a1ac779421d10616~mv2.jpg/v1/fill/w_640,h_430,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2f9f4e_9c1fffc643084747a1ac779421d10616~mv2.jpg"
-          alt="Album"
-          className="w-full"
+          src={require(props.image)}
+          alt={props.title}
+          className="w-full h-full"
         />
       </figure>
-      <div className="card-body">
+      <div className="card-body w-1/2">
         <h2 className="card-title">{props.title}</h2>
         <p>{props.desc}</p>
-        <div className="flex flex-row flex-wrap">
+        <div className="flex flex-row flex-wrap ">
           {props.technologies.map((tech) => {
             switch (tech) {
               case "DaisyUI":
@@ -31,7 +31,7 @@ const Project = ({ props }) => {
                 );
               case "Framer Motion":
                 return (
-                  <div className="badge text-purple-400 bg-black m-2">
+                  <div className="truncate badge text-purple-400 bg-black m-2">
                     {tech}
                   </div>
                 );
@@ -67,7 +67,7 @@ const Project = ({ props }) => {
                 );
               case "React Router":
                 return (
-                  <div className="badge text-slate-200 badge-primary m-2">
+                  <div className="truncate badge text-slate-200 badge-primary m-2">
                     {tech}
                   </div>
                 );
@@ -87,13 +87,6 @@ const Project = ({ props }) => {
                 return <div className="badge badge-warning m-2">null</div>;
             }
           })}
-
-          {/* <div className="badge badge-primary m-2">nodeJS</div>
-          <div className="badge badge-secondary m-2">Tailwind</div>
-          <div className="badge badge-accent m-2">React</div>
-          <div className="badge badge-warning m-2">Javascript</div>
-          <div className="badge badge-accent m-2">React</div>
-          <div className="badge badge-warning m-2">Javascript</div> */}
         </div>
         <div className="flex flex-row place-content-between mt-4">
           <div className="card-actions justify-end">
@@ -101,7 +94,11 @@ const Project = ({ props }) => {
           </div>
           {props.siteLink.length > 0 ? (
             <div className="card-actions justify-end">
-              <button className="btn bg-green-600 text-slate-200">Visit</button>
+              <a href={props.siteLink}>
+                <button className="btn bg-green-600 text-slate-200">
+                  Visit
+                </button>
+              </a>
             </div>
           ) : null}
         </div>
