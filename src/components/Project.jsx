@@ -4,18 +4,14 @@ import { motion } from "framer-motion";
 const Project = ({ props }) => {
   return (
     <motion.div
-      className="card lg:card-side lg:w-1/2 bg-[#082a3a] shadow-xl my-4 text-slate-200"
+      className="z-10 card lg:card-side lg:w-1/2 bg-[#082a3a] shadow-xl my-4 text-slate-200"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
     >
-      <figure>
-        <img
-          src={require(props.image)}
-          alt={props.title}
-          className="w-full h-full"
-        />
+      <figure className="lg:w-1/2 md:w-1/2">
+        <img src={props.image} alt={props.title} className="w-full h-full" />
       </figure>
-      <div className="card-body w-1/2">
+      <div className="card-body lg:w-1/2 md:w-1/2">
         <h2 className="card-title">{props.title}</h2>
         <p>{props.desc}</p>
         <div className="flex flex-row flex-wrap ">
@@ -89,9 +85,11 @@ const Project = ({ props }) => {
           })}
         </div>
         <div className="flex flex-row place-content-between mt-4">
-          <div className="card-actions justify-end">
-            <button className="btn bg-blue-500 text-slate-200">Code</button>
-          </div>
+          <a href={props.codeLink}>
+            <div className="card-actions justify-end">
+              <button className="btn bg-blue-500 text-slate-200">Code</button>
+            </div>
+          </a>
           {props.siteLink.length > 0 ? (
             <div className="card-actions justify-end">
               <a href={props.siteLink}>

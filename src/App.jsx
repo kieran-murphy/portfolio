@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
 import ProjectList from "./components/ProjectList";
+import Contact from "./components/Contact";
 import { motion, useScroll, useSpring } from "framer-motion";
 import "./App.css";
 
@@ -13,12 +14,13 @@ function App() {
   });
 
   return (
-    <div className="min-h-screen min-w-screen ">
+    <div className="min-h-screen min-w-screen z-50">
       {/* <div className="min-h-screen min-w-screen bg-gray-900"> */}
       <motion.div className="progress-bar" style={{ scaleX }}></motion.div>
       <Hero />
       <About />
       <ProjectList />
+      <Contact />
     </div>
   );
 }

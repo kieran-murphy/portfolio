@@ -8,7 +8,8 @@ const Projects = () => {
         props={{
           title: "Crypto Cards React",
           desc: "My first React application based on the coinGecko API and using Framer Motion for animations",
-          image: "",
+          image:
+            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/crypto.png?raw=true",
           technologies: [
             "Javascript",
             "React",
@@ -23,7 +24,8 @@ const Projects = () => {
         props={{
           title: "Colorle",
           desc: "A simple game where the user guesses the color swatch based on RGB values",
-          image: "",
+          image:
+            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/colorle.png?raw=true",
           technologies: ["Javascript", "React", "TailwindCSS"],
           codeLink: "https://github.com/kieran-murphy/colorle",
           siteLink: "https://kieran-murphy.github.io/colorle/",
@@ -33,7 +35,8 @@ const Projects = () => {
         props={{
           title: "Cliffhangr",
           desc: "A full stack MERN stack project where users can write reviews for their favourite TV shows [WIP]",
-          image: "",
+          image:
+            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/cliffhangr.png?raw=true",
           technologies: [
             "Javascript",
             "Express.js",
@@ -51,7 +54,8 @@ const Projects = () => {
         props={{
           title: "Piplupdex",
           desc: "A simple Pokedex application made in TailwindCSS and using Typescript React",
-          image: "",
+          image:
+            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/piplupdex.png?raw=true",
           technologies: ["Typescript", "React", "React Router", "TailwindCSS"],
           codeLink: "https://github.com/kieran-murphy/piplupdex",
           siteLink: "https://kieran-murphy.github.io/piplupdex/",
@@ -61,7 +65,8 @@ const Projects = () => {
         props={{
           title: "2703ICT Assignment",
           desc: "A PHP Laravel CRUD application for a class in my final year of uni",
-          image: "",
+          image:
+            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/2703ict.png?raw=true",
           technologies: ["PHP", "Laravel"],
           codeLink: "https://github.com/kieran-murphy/2703ICTAssignment2",
           siteLink: "",

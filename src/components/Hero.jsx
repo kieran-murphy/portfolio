@@ -28,7 +28,7 @@ const Hero = () => {
           <a href="#projects">Projects</a>
         </motion.div>
         <motion.div className="my-1" whileHover={{ translateX: 16 }}>
-          <a href="#about">Contact</a>
+          <a href="#contact">Contact</a>
         </motion.div>
       </div>
     </div>

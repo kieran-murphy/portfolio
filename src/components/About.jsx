@@ -1,6 +1,6 @@
 import React from "react";
 
-const LoremIpsum = () => {
+const About = () => {
   return (
     <div
       id="about"
@@ -27,4 +27,4 @@ const LoremIpsum = () => {
   );
 };
 
-export default LoremIpsum;
+export default About;
