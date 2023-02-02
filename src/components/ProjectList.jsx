@@ -11,7 +11,7 @@ const Projects = () => {
           image:
             "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/crypto.png?raw=true",
           technologies: [
-            "Javascript",
+            "JavaScript",
             "React",
             "React Router",
             "Framer Motion",
@@ -26,7 +26,7 @@ const Projects = () => {
           desc: "A simple game where the user guesses the color swatch based on RGB values",
           image:
             "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/colorle.png?raw=true",
-          technologies: ["Javascript", "React", "TailwindCSS"],
+          technologies: ["JavaScript", "React", "TailwindCSS"],
           codeLink: "https://github.com/kieran-murphy/colorle",
           siteLink: "https://kieran-murphy.github.io/colorle/",
         }}
@@ -38,7 +38,7 @@ const Projects = () => {
           image:
             "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/cliffhangr.png?raw=true",
           technologies: [
-            "Javascript",
+            "JavaScript",
             "Express.js",
             "React",
             "React Router",
@@ -56,7 +56,7 @@ const Projects = () => {
           desc: "A simple Pokedex application made in TailwindCSS and using Typescript React",
           image:
             "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/piplupdex.png?raw=true",
-          technologies: ["Typescript", "React", "React Router", "TailwindCSS"],
+          technologies: ["TypeScript", "React", "React Router", "TailwindCSS"],
           codeLink: "https://github.com/kieran-murphy/piplupdex",
           siteLink: "https://kieran-murphy.github.io/piplupdex/",
         }}
