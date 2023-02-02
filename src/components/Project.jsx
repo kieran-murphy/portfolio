@@ -31,7 +31,7 @@ const Project = ({ props }) => {
                     {tech}
                   </div>
                 );
-              case "Javascript":
+              case "JavaScript":
                 return <div className="badge badge-warning m-2">{tech}</div>;
               case "Laravel":
                 return (
@@ -73,7 +73,7 @@ const Project = ({ props }) => {
                     {tech}
                   </div>
                 );
-              case "Typescript":
+              case "TypeScript":
                 return (
                   <div className="badge badge-info text-slate-200 m-2">
                     {tech}

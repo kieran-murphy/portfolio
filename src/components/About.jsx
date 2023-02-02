@@ -10,9 +10,10 @@ const About = () => {
         <h1>
           I am an aspiring web developer from the Gold Coast, Australia ☀️ I'm
           super passionate about learning new technologies and bringing awesome
-          web applications to life. My main strengths lie in Python, Javascript,
-          ReactJS, Tailwind, REST APIs, Express.js and MongoDB. I have 2 degrees
-          from Griffith University in Business and Information Technology
+          web applications to life. My main strengths lie in Python, JavaScript,
+          TypeScript, ReactJS, Tailwind, REST APIs, Express.js and MongoDB. I
+          have 2 degrees from Griffith University in Business and Information
+          Technology
         </h1>
         <div className="hidden lg:block avatar">
           <div className="rounded-full">
