@@ -33,6 +33,24 @@ const Projects = () => {
       />
       <Project
         props={{
+          title: "Fragrance Finder",
+          desc: "A full stack NextJS app for creating and viewing beautiful fragrances",
+          image:
+            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/fragrancefinder.png?raw=true",
+          technologies: [
+            "JavaScript",
+            "React",
+            "Next.js",
+            "TailwindCSS",
+            "Prisma",
+            "MongoDB",
+          ],
+          codeLink: "https://github.com/kieran-murphy/FragranceFinder",
+          siteLink: "https://fragrance-finder.vercel.app/",
+        }}
+      />
+      <Project
+        props={{
           title: "Cliffhangr",
           desc: "A full stack MERN stack project where users can write reviews for their favourite TV shows [WIP]",
           image:

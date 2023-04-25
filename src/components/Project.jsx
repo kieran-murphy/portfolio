@@ -55,6 +55,10 @@ const Project = ({ props }) => {
                     {tech}
                   </div>
                 );
+              case "Prisma":
+                return (
+                  <div className="badge text-blue-800 bg-white m-2">{tech}</div>
+                );
               case "React":
                 return (
                   <div className="badge text-slate-200 badge-primary m-2">
