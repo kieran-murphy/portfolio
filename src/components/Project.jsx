@@ -18,7 +18,17 @@ const Project = ({ props }) => {
           {props.technologies.map((tech) => {
             switch (tech) {
               case "DaisyUI":
-                return <div className="badge bg-rose-400 m-2">{tech}</div>;
+                return (
+                  <div className="badge bg-rose-400 m-2">
+                    {tech}
+                  </div>
+                );
+              case "Deno":
+                return (
+                  <div className="badge text-green-300 bg-neutral-800 m-2">
+                    {tech}
+                  </div>
+                );
               case "Express.js":
                 return (
                   <div className="badge text-slate-900 bg-white m-2">
@@ -52,6 +62,12 @@ const Project = ({ props }) => {
               case "PHP":
                 return (
                   <div className="badge text-slate-900 bg-purple-400 m-2">
+                    {tech}
+                  </div>
+                );
+              case "PostgreSQL":
+                return (
+                  <div className="badge text-slate-900 bg-blue-500 m-2">
                     {tech}
                   </div>
                 );

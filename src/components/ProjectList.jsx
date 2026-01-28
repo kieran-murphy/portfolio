@@ -1,9 +1,42 @@
-import React from "react";
 import Project from "./Project";
 
 const Projects = () => {
   return (
     <div id="projects" className="flex flex-col justify-center items-center">
+      <Project
+        props={{
+          title: "Cliffhangr",
+          desc: "A full stack Next.js project where users can write reviews for their favourite TV shows",
+          image:
+            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/cliffhangr.png?raw=true",
+          technologies: [
+            "TypeScript",
+            "Next.js",
+            "React",
+            "TailwindCSS",
+            "DaisyUI",
+            "PostgreSQL",
+          ],
+          codeLink: "https://github.com/kieran-murphy/cliffhangr-next",
+          siteLink: "",
+        }}
+      />
+      <Project
+        props={{
+          title: "Zappy-link",
+          desc: "A full stack Deno project for shortening URLs with Github login integration",
+          image:
+            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/zappy-link.png?raw=true",
+          technologies: [
+            "TypeScript",
+            "Deno",
+            "React",
+            "DaisyUI",
+          ],
+          codeLink: "https://github.com/kieran-murphy/link-shortener",
+          siteLink: "https://zappy-link-shortener.deno.dev/",
+        }}
+      />
       <Project
         props={{
           title: "Crypto Cards React",
@@ -47,25 +80,6 @@ const Projects = () => {
           ],
           codeLink: "https://github.com/kieran-murphy/FragranceFinder",
           siteLink: "https://fragrance-finder.vercel.app/",
-        }}
-      />
-      <Project
-        props={{
-          title: "Cliffhangr",
-          desc: "A full stack MERN stack project where users can write reviews for their favourite TV shows [WIP]",
-          image:
-            "https://github.com/kieran-murphy/portfolio/blob/master/src/components/img/cliffhangr.png?raw=true",
-          technologies: [
-            "JavaScript",
-            "Express.js",
-            "React",
-            "React Router",
-            "TailwindCSS",
-            "DaisyUI",
-            "MongoDB",
-          ],
-          codeLink: "https://github.com/kieran-murphy/cliffhangr",
-          siteLink: "",
         }}
       />
       <Project
